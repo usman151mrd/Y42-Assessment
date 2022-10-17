@@ -34,3 +34,5 @@ coverage report # to watch code coverage
 * add comment for each line
 # Code best features
 * all the code is implementing fully followed object-oriented OOP concept and also tried to follow SOLID principle as well
+* code is formatted using isort black and flake8
+* added docstrings for all methods
