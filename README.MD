@@ -3,7 +3,7 @@
 cd project_directory
 python3 -m venv venv
 source venv/bin/activate
-pip install coverage
+pip install -r requirements.txt
 coverage run -m unittest # to run all test cases
 coverage report # to watch code coverage
 ```
@@ -32,7 +32,5 @@ coverage report # to watch code coverage
 # what should improve in my code 
 * split code into different files as each file has a single class
 * add comment for each line
-* create a python package that can be installed using pip, although I can do it easily and company provide me 72 hours but not possible for me to work all the time due to personal commitments
-
 # Code best features
 * all the code is implementing fully followed object-oriented OOP concept and also tried to follow SOLID principle as well

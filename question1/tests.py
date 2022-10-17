@@ -1,9 +1,9 @@
 from unittest import TestCase
-from .stack import Stack, NullElementException, EmptyStackException
+
+from question1.stack import EmptyStackException, NullElementException, Stack
 
 
 class StackTestCases(TestCase):
-
     def test_size_of_stack(self):
         stack = Stack()
         stack.push(5)
